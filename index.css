@@ -1,0 +1,48 @@
+body{
+  margin: 25%;
+  padding: 0%;
+  font-family: sans-serif;
+  background: #D8D8D8;
+  background-image: url('img/cafeteria1.jpg');
+}
+.box{
+  background-color: transparent;
+  width: 380px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  text-align: center;
+  border-radius: 25px;
+}
+
+button{
+  background: #192163;
+  color: #fff;
+  border: 2px solid #192163;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.lg{
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.st{
+  padding: 14px 28px;
+}
+
+.lc{
+  padding:14px 23px;
+}
+
+button:hover{
+  background:#fff;
+  color: #F78418;
+  border: 2px solid #F78418;
+}

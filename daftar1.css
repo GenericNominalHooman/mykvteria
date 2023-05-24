@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #D8D8D8;
+}
+
+
+.box{
+  width: 600px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  border-radius: 25px;
+}
+
+.input-field {
+  position: relative;
+  width: 250px;
+  height: 44px;
+  line-height: 44px;
+  font-weight: bold;
+}
+label {
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  left: 7px;
+  width: 100%;
+  color: #192163;
+  transition: 0.2s all;
+  cursor: text;
+}
+input[type = "text"],input[type = "password"]{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #192163;
+  box-shadow: none;
+  color: #111;
+}
+
+.input-field:after{
+  color:#192163;
+}
+
+input:invalid {
+  outline: 0;
+  //color: #192163;
+  //border-color: #192163;
+}
+input:focus,
+input:valid {
+  border-color: #192163;
+}
+input:focus~label,
+input:valid~label {
+  font-size: 16px;
+  top: -24px;
+  color: #192163;
+}
+
+
+.select-style{
+            padding: 0;
+            margin: 0;
+            border: none;
+            width: 250px;
+            height: 42px;
+            overflow: hidden;
+            background-color: #fff;
+            background: #fff;
+            position: relative;
+            border-bottom: 2px solid #192163;
+        }
+        .select-style select {
+            padding: 20px 8px;
+            width: 130%;
+            border: none;
+            box-shadow: none;
+            background-image: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            font-size: 16px;
+            color:#192163;
+            font-weight: bold;
+        }
+
+        .select-style:after {
+            top: 50%;
+            left: 85%;
+            border: solid transparent;
+            content: "";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: rgba(0, 0, 0, 0);
+            border-top-color: #192163;
+            border-width: 8px;
+            z-index: 100;
+
+        }
+
+        .select-style select:focus {
+            outline: none;
+            width: 250px;
+            color: #192163;
+        }
+
+
+.box input[type = "submit"]{
+  border:0;
+  background: #192163;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #192163;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.box input[type = "submit"]:hover{
+  background:#fff;
+  color: #F78418;
+  border: 2px solid #F78418;
+}
+
+
+

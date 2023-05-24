@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Candara';
+  background: #D8D8D8;
+}
+
+.heads{
+   font-family: 'Brush Script MT';
+   font-size: 25px;
+}
+b{
+  color: #F26012;
+}
+
+.heads a{
+  color: #192163;
+  font-family: 'Candara';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2{
+  color:#F26012;
+}
+
+
+
+.topnav {
+  background-color: #192163;
+  overflow: hidden;
+  border-radius: 15px;
+  text-shadow: none;
+  border:2px solid #192163;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav-right {
+  float: right;
+  background-color: none;
+}
+
+.topnav-right a:hover{
+}
+
+.topnav a:hover {
+  color: #F26012;
+  border:#192163;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #192163;
+}
